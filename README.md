@@ -47,14 +47,15 @@ git clone https://github.com/anjalirj27/Cold-Email-Generator.git
 cd cold-mail-generator
 
 ---
-2. Install Dependencies
+### 2. Install Dependencies
 pip install -r requirements.txt
 
-3. Add Your GROQ API Key
+### 3. Add Your GROQ API Key
 GROQ_API_KEY=your_api_key_here
 
-4. Run the App
+### 4. Run the App
 streamlit run app/main.py
+---
 
 💡 Features
 🔍 Scrapes jobs directly from career sites like Google Careers
@@ -64,6 +65,8 @@ streamlit run app/main.py
 🔗 Attaches portfolio links using semantic similarity from a vector database
 
 ⚡ Simple and fast UI built with Streamlit
+
+---
 
 🛠️ Tech Stack
 Python
@@ -77,6 +80,8 @@ GROQ API – Efficient language model generation
 Vector DB (FAISS/ChromaDB) – Semantic search for matching portfolio projects
 
 BeautifulSoup / Playwright / Selenium – For scraping job data from webpages
+
+----
 
 📁 File Structure
 ├── app/
