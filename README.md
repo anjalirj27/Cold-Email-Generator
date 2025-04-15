@@ -46,11 +46,10 @@ Sharper outreach, stronger alignment, and better conversion.
 git clone https://github.com/anjalirj27/Cold-Email-Generator.git
 cd cold-mail-generator
 
----
-### 2. Install Dependencies
+2. Install Dependencies
 pip install -r requirements.txt
 
-### 3. Add Your GROQ API Key
+3. Add Your GROQ API Key
 GROQ_API_KEY=your_api_key_here
 
 ### 4. Run the App
@@ -82,8 +81,9 @@ Vector DB (FAISS/ChromaDB) – Semantic search for matching portfolio projects
 BeautifulSoup / Playwright / Selenium – For scraping job data from webpages
 
 ----
-
+```bash
 📁 File Structure
+.
 ├── app/
 │   ├── main.py
 │   ├── .env
@@ -91,3 +91,4 @@ BeautifulSoup / Playwright / Selenium – For scraping job data from webpages
 │       └── my_portfolio.csv
 ├── requirements.txt
 └── README.md
+
