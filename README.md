@@ -15,7 +15,7 @@ Instead of cold guessing, a business development rep from a software services fi
 2. Let the tool fetch job details and understand the role.
 3. Automatically generate a cold email tailored to Google’s exact need, with relevant portfolio projects linked inside.
 
-The result?
+**The result?**
 Sharper outreach, stronger alignment, and better conversion.
 
 ---
@@ -89,11 +89,3 @@ Edit
 │       └── my_portfolio.csv
 ├── requirements.txt
 └── README.md
-🔮 Roadmap
-✅ Google Careers scraping
-
-🚧 Add support for LinkedIn, Lever, Greenhouse, etc.
-
-📬 Integrate email services (Gmail, Outlook)
-
-🗂️ Enable batch scraping and multi-company outreach
