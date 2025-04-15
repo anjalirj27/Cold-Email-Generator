@@ -15,7 +15,8 @@ Instead of cold guessing, a business development rep from a software services fi
 2. Let the tool fetch job details and understand the role.
 3. Automatically generate a cold email tailored to Google’s exact need, with relevant portfolio projects linked inside.
 
-The result? Sharper outreach, stronger alignment, and better conversion.
+The result?
+Sharper outreach, stronger alignment, and better conversion.
 
 ---
 
