@@ -33,11 +33,6 @@ The result? Sharper outreach, stronger alignment, and better conversion.
 4. **Cold Email Generation**  
    A well-crafted, personalized cold email is generated using large language models via GROQ and LangChain.
 
----
-
-## 🖼️ Architecture
-
-![Architecture Diagram](img.png)
 
 ---
 
@@ -45,54 +40,44 @@ The result? Sharper outreach, stronger alignment, and better conversion.
 
 ### 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/yourusername/cold-mail-generator.git
 cd cold-mail-generator
 
 ---
 2. Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 3. Add Your GROQ API Key
-Get your API key from GROQ Console
-
-Create a .env file inside the app/ directory:
-
-ini
-Copy
-Edit
 GROQ_API_KEY=your_api_key_here
+
 4. Run the App
-bash
-Copy
-Edit
 streamlit run app/main.py
+
 💡 Features
 🔍 Scrapes jobs directly from career sites like Google Careers
 
-✉️ Generates context-aware cold emails
+✉️ Generates context-aware cold emails using LLMs
 
-🔗 Attaches relevant portfolio examples using vector similarity search
+🔗 Attaches portfolio links using semantic similarity from a vector database
 
-⚡ Fast, simple Streamlit interface
+⚡ Simple and fast UI built with Streamlit
 
 🛠️ Tech Stack
 Python
 
-Streamlit – UI framework
+Streamlit – Frontend interface
 
-LangChain – LLM workflow orchestration
+LangChain – LLM workflow management
 
-GROQ API – For fast and cost-effective text generation
+GROQ API – Efficient language model generation
 
-Vector DB (FAISS/ChromaDB) – To match job descriptions with your portfolio
+Vector DB (FAISS/ChromaDB) – Semantic search for matching portfolio projects
 
-BeautifulSoup / Playwright / Selenium – For job page scraping (as needed)
+BeautifulSoup / Playwright / Selenium – For scraping job data from webpages
 
 📁 File Structure
-css
+bash
 Copy
 Edit
 .
@@ -102,23 +87,12 @@ Edit
 │   └── resources/
 │       └── my_portfolio.csv
 ├── requirements.txt
-├── img.png
 └── README.md
 🔮 Roadmap
 ✅ Google Careers scraping
 
-🚧 Support for LinkedIn, Lever, Greenhouse, etc.
+🚧 Add support for LinkedIn, Lever, Greenhouse, etc.
 
-📬 Email integration (Gmail, Outlook)
+📬 Integrate email services (Gmail, Outlook)
 
-🗂️ Bulk company scraping & batch email generation
-
-
-
-
-
-
-
-
-
-
+🗂️ Enable batch scraping and multi-company outreach
