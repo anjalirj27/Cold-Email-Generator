@@ -38,57 +38,16 @@ Sharper outreach, stronger alignment, and better conversion.
 
 ---
 
-## ⚙️ Setup
+## Set-up
+1. To get started we first need to get an API_KEY from here: https://console.groq.com/keys. Inside `app/.env` update the value of `GROQ_API_KEY` with the API_KEY you created. 
 
-### 1. Clone the Repository
 
-```
-git clone https://github.com/anjalirj27/Cold-Email-Generator.git
-cd cold-mail-generator
-
-2. Install Dependencies
-pip install -r requirements.txt
-
-3. Add Your GROQ API Key
-GROQ_API_KEY=your_api_key_here
-
-### 4. Run the App
-streamlit run app/main.py
----
-
-💡 Features
-🔍 Scrapes jobs directly from career sites like Google Careers
-
-✉️ Generates context-aware cold emails using LLMs
-
-🔗 Attaches portfolio links using semantic similarity from a vector database
-
-⚡ Simple and fast UI built with Streamlit
-
----
-
-🛠️ Tech Stack
-Python
-
-Streamlit – Frontend interface
-
-LangChain – LLM workflow management
-
-GROQ API – Efficient language model generation
-
-Vector DB (FAISS/ChromaDB) – Semantic search for matching portfolio projects
-
-BeautifulSoup / Playwright / Selenium – For scraping job data from webpages
-
-----
-```bash
-📁 File Structure
-.
-├── app/
-│   ├── main.py
-│   ├── .env
-│   └── resources/
-│       └── my_portfolio.csv
-├── requirements.txt
-└── README.md
-
+2. To get started, first install the dependencies using:
+    ```commandline
+     pip install -r requirements.txt
+    ```
+   
+3. Run the streamlit app:
+   ```commandline
+   streamlit run app/main.py
+   ```
