@@ -41,7 +41,7 @@ The result? Sharper outreach, stronger alignment, and better conversion.
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/yourusername/cold-mail-generator.git
+git clone https://github.com/anjalirj27/Cold-Email-Generator.git
 cd cold-mail-generator
 
 ---
