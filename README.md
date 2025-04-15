@@ -16,6 +16,7 @@ Instead of cold guessing, a business development rep from a software services fi
 3. Automatically generate a cold email tailored to Google’s exact need, with relevant portfolio projects linked inside.
 
 **The result?**
+
 Sharper outreach, stronger alignment, and better conversion.
 
 ---
@@ -78,10 +79,6 @@ Vector DB (FAISS/ChromaDB) – Semantic search for matching portfolio projects
 BeautifulSoup / Playwright / Selenium – For scraping job data from webpages
 
 📁 File Structure
-bash
-Copy
-Edit
-.
 ├── app/
 │   ├── main.py
 │   ├── .env
